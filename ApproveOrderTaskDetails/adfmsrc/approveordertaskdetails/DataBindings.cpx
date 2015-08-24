@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.64.93" id="DataBindings" SeparateXMLFiles="false"
+             Package="approveordertaskdetails" ClientType="Generic">
+  <pageMap>
+    <page path="/ApproveRejectOrderPage.jspx"
+          usageId="approveordertaskdetails_ApproveRejectOrderPagePageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="approveordertaskdetails_ApproveRejectOrderPagePageDef"
+          path="approveordertaskdetails.pageDefs.ApproveRejectOrderPagePageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <dc id="ApproveOrderTaskDetails_ManualPOApproval"
+        path="approveordertaskdetails.ApproveOrderTaskDetails_ManualPOApproval"/>
+  </dataControlUsages>
+</Application>
